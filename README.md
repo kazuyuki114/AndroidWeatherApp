@@ -32,40 +32,40 @@ A simple and user-friendly weather application that allows users to check the cu
 
 ## Code Structure
 The app follows the MVVM (Model-View-ViewModel) architecture for better maintainability and scalability.
-📂 com.example.firstapp/
-│── 📂 activity/                     # UI Layer (Activities)
+ com.example.firstapp/
+│── activity/                     # UI Layer (Activities)
 │   ├── AddCityActivity.kt           # Activity for adding a city
 │   ├── isNetworkAvailable.kt        # Utility function to check network availability
 │   ├── MainActivity.kt              # Main screen displaying weather details
 │   ├── SettingActivity.kt           # Settings screen for changing temperature units
 │
-│── 📂 adapter/                      # RecyclerView Adapters
+│── adapter/                      # RecyclerView Adapters
 │   ├── CityAdapter.kt               # Adapter for displaying a list of cities
 │   ├── ForecastAdapter.kt           # Adapter for displaying weather forecasts
 │
-│── 📂 model/                        # Data Models (Kotlin data classes)
+│── model/                        # Data Models (Kotlin data classes)
 │   ├── CityResponseApi.kt           # Data model for city information
 │   ├── CurrentResponseApi.kt        # Data model for current weather data
 │   ├── ForecastResponseApi.kt       # Data model for weather forecast data
 │
-│── 📂 repository/                   # Repository Layer (Handles API calls and data storage)
+│── repository/                   # Repository Layer (Handles API calls and data storage)
 │   ├── CityRepository.kt            # Manages city-related data and API interactions
 │   ├── WeatherRepository.kt         # Manages weather data fetching and caching
 │
-│── 📂 server/                       # API Handling (Retrofit + OkHttp)
+│── server/                       # API Handling (Retrofit + OkHttp)
 │   ├── ApiClient.kt                 # Retrofit instance with OkHttp client
 │   ├── ApiServices.kt               # API interface defining network requests
 │
-│── 📂 shared/                       # Shared Preferences & Utility Classes
+│── shared/                       # Shared Preferences & Utility Classes
 │   ├── SharedData.kt                # Handles user preferences (temperature unit, selected city)
 │
-│── 📂 viewmodel/                    # ViewModels (Business logic & UI communication)
+│── viewmodel/                    # ViewModels (Business logic & UI communication)
 │   ├── CityViewModel.kt             # Handles city selection and management logic
 │   ├── UnitViewModel.kt             # Manages temperature unit settings
 │   ├── WeatherViewModel.kt          # Handles fetching and updating weather data
 │
-│── 📜 AndroidManifest.xml           # Android Manifest file
-│── 📜 build.gradle                  # Gradle dependencies and project configuration
+│── AndroidManifest.xml           # Android Manifest file
+│── build.gradle                  # Gradle dependencies and project configuration
 
 
 ## Future Enhancements
