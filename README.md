@@ -65,7 +65,7 @@ The app follows the MVVM (Model-View-ViewModel) architecture for better maintain
 │   ├── WeatherViewModel.kt          # Handles fetching and updating weather data
 │
 │── AndroidManifest.xml           # Android Manifest file
-│── build.gradle                  # Gradle dependencies and project configuration
+└── build.gradle                  # Gradle dependencies and project configuration
 
 
 ## Future Enhancements
