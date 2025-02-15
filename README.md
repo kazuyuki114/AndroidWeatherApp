@@ -2,7 +2,7 @@
 
 A simple and user-friendly weather application that allows users to check the current weather based on their location or search for any city's weather. The app provides the option to switch between temperature units (Celsius and Fahrenheit), and stores the user's preference for future sessions.
 <p align="center">
-  <img src="images/Screenshot.png" width="300">
+  <img src="images/Screenshot.png" width="300" title="App Screenshot">
 </p>
 
 
